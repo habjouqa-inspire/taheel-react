@@ -15,7 +15,7 @@ export default ({
       setErrors(null);
       console.log(body + method);
       const headers = {
-        'Appian-API-Key': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2YWUxNjY4OC1kMjMxLTRmZTQtYWYyMy0yYjQ5MWUyMjk2NDkifQ.sVfHaN8hSbxpZuuhIjq1Dd9YOEh_ckc2Qk9pCrX_3Sw'
+        'Appian-API-Key': process.env.REACT_APP_APPIAN_API_KEY
       };
       const response = await axios.post(url, requestBody, { headers });
 

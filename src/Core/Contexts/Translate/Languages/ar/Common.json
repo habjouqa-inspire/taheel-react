@@ -1,0 +1,47 @@
+{
+    "lang": "ar",
+    "center_page": {
+        "centers": "المراكز"
+    },
+    "dashboard":{
+        "sidebar":{
+                "personal_info": "الملف التعريفي",
+                "dashboard": "لوحة البيانات",
+                "services": "الخدمات",
+                "centers": "المراكز",
+                "orders": "الطلبات",
+                "logout": "تسجيل خروج",
+                "all_rights_reserved":"جميع الحقوق محفوظة © 2021"
+        },
+        "total_centers":"عدد المراكز",
+        "total_completed_request":"الطلبات المكتملة",
+        "total_pending_request":"الطلبات قيد المراجعة",
+        "latest_requests":{
+            "submitted_request":"الطلبات المقدمة",
+            "request_number":"رقم الطلب",
+            "center_name":"اسم المركز",
+            "request_type":"نوع الطلب",
+            "request_date":"تاريخ الطلب",
+            "request_status":"حالة الطلب",
+            "show_all_requests":"عرض جميع الطلبات"
+        },
+        "requests_chart":{
+            "pending_request":"قيد المراجعة",
+            "completed_request":"مكتمل",
+            "rejected_requests":"مرفوض",
+            "requests_analysis":"تحليل الطلبات"
+        },
+        "centers_table":{
+            "natural_type":"صفة طبيعية",
+            "legel_type":"صفة إعتبارية",
+            "center_type":"نوع المركز",
+            "license_expiration_date":"تاريخ إنتهاء الرخصة",
+            "owner_type":"صفة المالك",
+            "license_number":"رقم الرخصة",
+            "download_license":"تنزيل الرخصة",
+            "download_certification":"تنزيل الشهادة",
+            "show_all_centers":"عرض جميع المراكز"
+        }
+
+    }
+}

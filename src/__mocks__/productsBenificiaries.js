@@ -4,19 +4,19 @@ export default [
   {
     id: uuid(),
     createdAt: '03/04/2019',
-    description: 'إضافة او تحديث سجل الاجتماعي',
+    description: 'إضافة أو تحديث سجل الاجتماعي',
     media: '/static/images/products/clock.png',
-    title: 'إضافة او تحديث سجل الاجتماعي',
+    title: 'إضافة أو تحديث سجل الاجتماعي',
     totalDownloads: '857',
-    url: '/services/survey',
+    url: '/center-services/survey',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'التسجيل في مركز اهلي',
+    description: 'التسجيل في مركز أهلي',
     media: '/static/images/products/checklist.png',
-    title: 'التسجيل في مركز اهلي',
-    url: '/services/survey',
+    title: 'التسجيل في مركز أهلي',
+    url: '/center-services/survey',
     isActive: true
   },
   {
@@ -24,15 +24,15 @@ export default [
     description: 'تتيح هذه الخدمة للمركز الانضمام لبرنامج تحمل الدولة للرسوم',
     media: '/static/images/products/help_hand.png',
     title: 'التسجيل في برنامج تحمل الدولة للرسوم',
-    url: '/services/survey',
+    url: '/center-services/survey',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'الانتقال الى مركز اهلي اخر',
+    description: 'الانتقال إلى مركز أهلي اخر',
     media: '/static/images/products/app.png',
-    title: 'الانتقال الى مركز اهلي اخر',
-    url: '/services/survey',
+    title: 'الانتقال إلى مركز أهلي اخر',
+    url: '/center-services/survey',
     isActive: true
   },
   {
@@ -40,7 +40,7 @@ export default [
     description: 'خدمة طلب تقييم الإعاقة',
     media: '/static/images/products/checklist.png',
     title: 'خدمة طلب تقييم الإعاقة',
-    url: '/services/survey',
+    url: '/center-services/survey',
     isActive: true
   },
   {
@@ -48,7 +48,7 @@ export default [
     description: 'اسناد يتيم لأسرة كافلة',
     media: '/static/images/products/checklist.png',
     title: 'اسناد يتيم لأسرة كافلة',
-    url: '/services/survey',
+    url: '/center-services/survey',
     isActive: true
   },
   {
@@ -56,7 +56,7 @@ export default [
     description: 'طلب استضافة يتيم لدى أسرة صديقة',
     media: '/static/images/products/checklist.png',
     title: 'طلب استضافة يتيم لدى أسرة صديقة',
-    url: '/services/survey',
+    url: '/center-services/survey',
     isActive: true
   },
   {
@@ -64,7 +64,7 @@ export default [
     description: 'خدمة طلب بطاقة التسهيلات المرورية',
     media: '/static/images/products/checklist.png',
     title: 'خدمة طلب بطاقة التسهيلات المرورية',
-    url: '/services/survey',
+    url: '/center-services/survey',
     isActive: true
   }
 ];

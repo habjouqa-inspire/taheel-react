@@ -4,19 +4,12 @@
     "es6": true,
     "browser": true
   },
-  "extends": [
-    "plugin:react/recommended"
-  ],
+  "extends": ["plugin:react/recommended"],
   "settings": {
     "import/resolver": {
       "node": {
-        "paths": [
-          "."
-        ],
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "paths": ["."],
+        "extensions": [".js", ".jsx"]
       }
     }
   },
@@ -32,4 +25,5 @@
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off"
   }
+  
 }

@@ -3,7 +3,8 @@
     src: url(fonts/Frutiger-LT-Arabic-75-Black.eot);
     src: url(fonts/Frutiger-LT-Arabic-75-Black.eot?#iefix) format("embedded-opentype"),url(fonts/Frutiger-LT-Arabic-75-Black.otf) format("opentype"),url(fonts/Frutiger-LT-Arabic-75-Black.svg) format("svg"),url(fonts/Frutiger-LT-Arabic-75-Black.ttf) format("truetype"),url(fonts/Frutiger-LT-Arabic-75-Black.woff) format("woff"),url(fonts/Frutiger-LT-Arabic-75-Black.woff2) format("woff2");
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -11,7 +12,8 @@
     src: url(fonts/FrutigerLTArabic-65Bold.eot);
     src: url(fonts/FrutigerLTArabic-65Bold.eot?#iefix) format("embedded-opentype"),url(fonts/FrutigerLTArabic-65Bold.otf) format("opentype"),url(fonts/FrutigerLTArabic-65Bold.svg) format("svg"),url(fonts/FrutigerLTArabic-65Bold.ttf) format("truetype"),url(fonts/FrutigerLTArabic-65Bold.woff) format("woff"),url(fonts/FrutigerLTArabic-65Bold.woff2) format("woff2");
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -19,7 +21,8 @@
     src: url(fonts/FrutigerLTArabic-45Light.eot);
     src: url(fonts/FrutigerLTArabic-45Light.eot?#iefix) format("embedded-opentype"),url(fonts/FrutigerLTArabic-45Light.otf) format("opentype"),url(fonts/FrutigerLTArabic-45Light.svg) format("svg"),url(fonts/FrutigerLTArabic-45Light.ttf) format("truetype"),url(fonts/FrutigerLTArabic-45Light.woff) format("woff"),url(fonts/FrutigerLTArabic-45Light.woff2) format("woff2");
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -27,5 +30,6 @@
     src: url(fonts/Frutiger-LT-Arabic-55-Roman.eot);
     src: url(fonts/Frutiger-LT-Arabic-55-Roman.eot?#iefix) format("embedded-opentype"),url(fonts/Frutiger-LT-Arabic-55-Roman.otf) format("opentype"),url(fonts/Frutiger-LT-Arabic-55-Roman.svg) format("svg"),url(fonts/Frutiger-LT-Arabic-55-Roman.ttf) format("truetype"),url(fonts/Frutiger-LT-Arabic-55-Roman.woff) format("woff"),url(fonts/Frutiger-LT-Arabic-55-Roman.woff2) format("woff2");
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    font-display: swap;
 }

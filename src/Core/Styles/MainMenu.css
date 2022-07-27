@@ -1,0 +1,15 @@
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-bottom: 8px;
+  outline: 0;
+}
+div.MuiPaper-root ul.MuiList-root{
+  padding-top: 0px;
+}
+
+div.MuiPaper-root::-webkit-scrollbar {
+  width: 1em;
+}

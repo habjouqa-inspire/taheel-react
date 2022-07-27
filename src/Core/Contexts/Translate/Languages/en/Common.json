@@ -1,0 +1,14 @@
+{
+    "lang": "en",
+    "center_page": {
+        "centers": "Centers"
+    },
+    "orders_page": {
+        "personal_info": "الملف التعريفي",
+        "dashboard": "لوحة البيانات",
+        "services": "الخدمات",
+        "centers": "المراكز",
+        "orders": "الطلبات",
+        "logout": "تسجيل خروج"
+    }
+}

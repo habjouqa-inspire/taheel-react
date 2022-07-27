@@ -10,6 +10,7 @@
 
 # production
 /build
+/build*
 
 # misc
 .DS_Store
@@ -23,3 +24,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# deployment
+# /.github/workflows/*
+# *.yml
+.env
+bitbucket-pipelines.yml

@@ -3,100 +3,107 @@ import { v4 as uuid } from 'uuid';
 export default [
   {
     id: uuid(),
-    createdAt: '03/04/2019',
-    description: 'خدمة اصدار شهادة ترخيص مؤقت لمركز اهلي ',
+    description: 'services_list.temp_license.description',
     media: '/static/images/products/clock.png',
-    title: 'خدمة اصدار شهادة ترخيص مؤقت لمركز اهلي ',
-    totalDownloads: '857',
-    url: '/services/survey',
+    title: 'إصدار موافقة مبدئية لمركز تأهيل أهلي',
+    url: '/center-services/templicense',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'خدمة تغيير موقع لترخيص مؤقت لمركز اهلي ',
-    media: '/static/images/products/checklist.png',
-    title: 'خدمة تغيير موقع لترخيص مؤقت لمركز اهلي ',
-    url: '/services/survey',
-    isActive: true
-  },
-  {
-    id: uuid(),
-    description: 'خدمة الغاء شهادة ترخيص مؤقت لمركز اهلي ',
-    media: '/static/images/products/help_hand.png',
-    title: 'خدمة الغاء شهادة ترخيص مؤقت لمركز اهلي ',
-    url: '/services/survey',
-    isActive: true
-  },
-  {
-    id: uuid(),
-    description: 'خدمة اصدار شهادة ترخيص نهائي لمركز اهلي ',
+    description: 'services_list.final_license.description',
     media: '/static/images/products/app.png',
-    title: 'خدمة اصدار شهادة ترخيص نهائي لمركز اهلي ',
-    url: '/services/survey',
+    title: 'إصدار ترخيص',
+    url: '/center-services/finallicense',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'خدمة تجديد ترخيص نهائي لمركز اهلي',
-    media: '/static/images/products/checklist.png',
-    title: 'خدمة تجديد ترخيص نهائي لمركز اهلي',
-    url: '/services/survey',
+    description: 'services_list.final_license_renewal.description',
+    media: '/static/images/products/renew.png',
+    title: 'طلب تجديد رخصة نهائية',
+    url: '/center-services/finallicenserenewal',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'خدمة نقل ملكية لمركز اهلي ',
-    media: '/static/images/products/checklist.png',
-    title: 'خدمة نقل ملكية لمركز اهلي ',
-    url: '/services/survey',
+    description: 'services_list.transfer_center.description',
+    media: '/static/images/products/center-transfer.png',
+    title: 'نقل مقر مركز أهلي',
+    url: '/center-services/transfercenter',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'خدمة نقل مقر لمركز اهلي',
-    media: '/static/images/products/checklist.png',
-    title: 'خدمة نقل مقر لمركز اهلي',
-    url: '/services/survey',
+    description: 'services_list.program_registeration.description',
+    media: '/static/images/products/app.png',
+    title: 'التسجيل في البرامج المعتمدة',
+    url: '/center-services/programRegisteration',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'طلب الغاء ترخيص لمركز أهلي (من المالك)',
-    media: '/static/images/products/checklist.png',
-    title: 'طلب الغاء ترخيص لمركز أهلي (من المالك)',
-    url: '/services/survey',
+    description: 'services_list.cancel_initial_approval.description',
+    media: '/static/images/products/cancelTemp.png',
+    title: ' إلغاء موافقة مبدئية',
+    url: '/center-services/cancelInitialApproval',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'التسجيل في برنامج تحمل الدولة للرسوم',
-    media: '/static/images/products/checklist.png',
-    title: 'التسجيل في برنامج تحمل الدولة للرسوم',
-    url: '/services/survey',
+    description: 'services_list.cancel_final_license.description',
+    media: '/static/images/products/cancelFinal.png',
+    title: 'خدمة طلب إلغاء ترخيص لمركز (من المالك)',
+    url: '/center-services/CancelFinalLicense',
     isActive: true
   },
   {
     id: uuid(),
-    description: 'خدمة نقل ملكية لمركز اهلي ',
-    media: '/static/images/products/checklist.png',
-    title: 'خدمة نقل ملكية لمركز اهلي ',
-    url: '/services/survey',
+    description: 'services_list.suspend_center.description',
+    media: '/static/images/products/work-sus.png',
+    title: "خدمة طلب تعليق العمل في مركز أهلي (من المالك)",
+    url: '/center-services/suspendlandingpage',
+    isActive: true
+
+  },
+  {
+    id: uuid(),
+    description: 'services_list.transfer_center_ownership.description',
+    media: '/static/images/products/owner_transfer_icon.png',
+    title: 'نقل ملكية مركز أهلي',
+    url: '/center-services/transfercenterownership',
+    isActive: true
+  },
+  {
+    id: uuid(),
+    description: 'services_list.state_fee.description',
+    media: '/static/images/products/help_hand.png',
+    title: 'تسجيل المركز الأهلي في برنامج تحمل الدولة للرسوم',
+    url: '/center-services/stateFeeBearingProgram',
+    isActive: true
+  },
+  {
+    id: uuid(),
+    description: 'services_list.cancel_state_fee.description',
+    media: '/static/images/products/cancel_fees.png',
+    title:'إلغاء طلب الانضمام إلى برنامج تحمل الدولة للرسوم',
+    url: '/center-services/cancelStateFeeBearingProgram',
+    isActive: true
+  },
+  {
+    id: uuid(),
+    description: ' تتيح هذه الخدمة للمركز إصدار ترخيص نهائي لمركز تأهيل أهلي',
+    media: '/static/images/products/app.png',
+    title: 'إصدار ترخيص نهائي لمركز تأهيل أهلي',
+    url: '/center-services/finallicense',
     isActive: false
   },
   {
     id: uuid(),
-    description: 'خدمة نقل ملكية لمركز اهلي ',
+    description: ' تتيح هذه الخدمة للمركز إصدار ترخيص مؤقت لمركز تأهيل أهلي',
     media: '/static/images/products/checklist.png',
-    title: 'خدمة نقل ملكية لمركز اهلي ',
-    url: '/services/survey',
+    title: 'إصدار ترخيص مبدئي لمركز تأهيل أهلي',
+    url: '/center-services/survey',
     isActive: false
   },
-  {
-    id: uuid(),
-    description: 'خدمة نقل ملكية لمركز اهلي ',
-    media: '/static/images/products/checklist.png',
-    title: 'خدمة نقل ملكية لمركز اهلي ',
-    url: '/services/survey',
-    isActive: false
-  }
 ];
