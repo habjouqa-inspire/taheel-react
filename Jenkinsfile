@@ -5,10 +5,8 @@ pipeline {
     }
 
     stages {
-        stage('Hello') {
+        stage('build') {
             steps {
-                echo 'Hello World'
-                sh 'npm version'
                 sh 'npm install'
                 sh 'npm run build:sit'
             }
