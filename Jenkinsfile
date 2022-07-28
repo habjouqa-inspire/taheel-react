@@ -10,7 +10,7 @@ pipeline {
                 sh 'node -v'
                 sh 'npm -v'
                 sh 'npm install --force'
-//                 sh 'npm run build:sit'
+                sh 'npm run build:sit'
             }
         }
     }
