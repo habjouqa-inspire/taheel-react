@@ -7,8 +7,10 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'npm install'
-                sh 'npm run build:sit'
+                sh 'node -v'
+                sh 'npm -v'
+//                 sh 'npm install'
+//                 sh 'npm run build:sit'
             }
         }
     }
